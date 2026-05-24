@@ -66,57 +66,7 @@ Habit.findOne({
 
 ## Data Model
 
-```mermaid
-erDiagram
-    USER ||--o{ HABIT : owns
-    USER ||--o{ HABIT_COMPLETION : owns
-    HABIT ||--o{ HABIT_COMPLETION : has
-    USER ||--o{ BADGE : unlocks
-    USER ||--o{ DAILY_USER_STAT : summarizes
 
-    USER {
-      ObjectId _id
-      string email
-      string password
-      number consistencyScore
-    }
-
-    HABIT {
-      ObjectId _id
-      ObjectId user
-      string name
-      string icon
-      string color
-      string frequency
-      string status
-    }
-
-    HABIT_COMPLETION {
-      ObjectId _id
-      ObjectId user
-      ObjectId habit
-      date date
-      date completedAt
-      string source
-    }
-
-    DAILY_USER_STAT {
-      ObjectId _id
-      ObjectId user
-      date date
-      number totalHabits
-      number completed
-      number completionRate
-    }
-
-    BADGE {
-      ObjectId _id
-      ObjectId user
-      string badgeKey
-      string title
-      date unlockedAt
-    }
-```
 
 ## Request Flow
 
