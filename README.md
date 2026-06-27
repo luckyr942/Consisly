@@ -25,7 +25,6 @@ flowchart LR
     F --> G[Analytics]
     F --> H[Badges]
 ```
-
 ## Architecture
 
 ```mermaid
