@@ -13,7 +13,6 @@ Consisly is a privacy-first habit tracking app built with an Expo mobile client 
 - Cursor pagination for large habit lists
 - Production readiness checks
 - Scale-ready daily analytics summaries
-
   
 ## App Preview
 ```mermaid
