@@ -25,7 +25,6 @@ flowchart LR
     F --> H[Badges]
 ```
 ## Architecture
-
 ```mermaid
 flowchart TB
     Mobile[Expo Mobile App] --> API[Express API]
