@@ -1,6 +1,5 @@
 
 # Consisly
-
 Consisly is a privacy-first habit tracking app built with an Expo mobile client and a Node.js/Express API. It tracks habits, daily check-ins, consistency scores, badges, and real analytics while keeping every user's data isolated by ownership.
 
 ## What It Does
@@ -40,7 +39,6 @@ flowchart TB
 ## Privacy Model
 
 Every private document stores a `user` field. Controllers never trust a user id from the client; they always use `req.user._id` from the verified JWT.
-
 ```mermaid
 flowchart TD
     User[User] --> Habits[User Habits]
@@ -82,7 +80,6 @@ sequenceDiagram
     API->>DB: Refresh daily stat
     API-->>App: Habit, score, unlocked badges
 ```
-
 ## Tech Stack
 
 | Layer | Technology |
