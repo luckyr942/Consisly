@@ -122,9 +122,7 @@ npm install
 cp .env.example .env
 npm run dev
 ```
-
 Required backend environment:
-
 ```txt
 PORT=5001
 NODE_ENV=development
