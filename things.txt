@@ -3,9 +3,7 @@ Yes, Consisly is highly scalable and 100% ready to be published to both the Appl
 Because we built the mobile app using Expo and React Native, you have a massive advantage: you can compile to both iOS and Android from this exact same codebase without writing Java or Swift.
 
 Here is a breakdown of your scalability and the exact roadmap to get it onto the App Stores:
-
 1. Is the App Scalable? (Yes!)
-Your tech stack is the same stack used by billion-dollar companies (Discord, Uber Eats, and Shopify all use React Native and Node).
 
 Stateless Backend: Because we built your authentication using JWTs (JSON Web Tokens), your backend doesn't store user session memory. This means if your app goes viral, you can spin up 10 backend servers and they will all work together seamlessly.
 Database (MongoDB): MongoDB is specifically designed to handle massive amounts of unstructured data. As your users generate thousands of habit check-ins, MongoDB Atlas can easily auto-scale its storage.
