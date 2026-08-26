@@ -245,20 +245,7 @@ Root Directory: backend
 Build Command: npm install
 Start Command: npm start
 Health Check: /ready
-```
-
-Production backend env:
-
-```txt
-NODE_ENV=production
-DATABASE_URL=mongodb+srv://...
-JWT_SECRET=long_random_secret
-JWT_EXPIRES_IN=30d
-CORS_ORIGIN=https://your-web-domain.com
-RATE_LIMIT_ENABLED=false
-```
-
-Use `RATE_LIMIT_ENABLED=false` when rate limiting is handled by Cloudflare, Render, Railway, NGINX, or another gateway.
+````
 
 ## Status
 
